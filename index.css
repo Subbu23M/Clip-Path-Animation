@@ -1,0 +1,46 @@
+body {
+  background: #DCF5FF;
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  background: #fff;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.container .inner {
+  background: #07daa5;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100%-2em);
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.container .inner h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.container .inner p {
+  color: #fff;
+  font-size: .8em;
+}
+
+.container:hover .inner {
+  -webkit-clip-path: inset(0% 0% 0% 50%);
+          clip-path: inset(0% 0% 0% 50%);
+}
+/*# sourceMappingURL=index.css.map */
